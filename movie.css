@@ -1,0 +1,395 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .layar-dalam {
+    width: 1000px;
+    margin: auto;
+  }
+  .layar-penuh {
+    width: 100%;
+  }
+  nav {
+    z-index: 100;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    border-bottom: 1px solid #b1b1b1;
+    line-height: 60px;
+    width: 100%;
+    transition: background-color 0.5s ease;
+  }
+  
+  nav .logo {
+    float: left;
+    position: relative;
+    line-height: 55px;
+    text-align: center;
+ 
+  }
+  nav .logo img {
+    vertical-align: middle;
+    width: 137px;
+  }
+  
+  nav .menu {
+    float: left;
+    height: 60px;
+    max-width: 600px;
+  }
+  
+  nav .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav .menu ul li {
+    list-style-type: none;
+    float: left;
+    line-height: 60px;
+    font-size:20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+    font-family:arial;
+    font-size:22px;
+    color: rgb(214, 52, 52);
+
+ }
+  
+  /* pengaturan header */
+  header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+  }
+  header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+  header .intro {
+    width: 100%;
+    height: 40%;
+    z-index: 100;
+    color: #fff;
+    background-color: rgba (0,0,0,1);
+    text-align: center;
+    position: relative;
+    top: 50%;
+  }
+  header .intro h3 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  .tombol {
+    background-color: #830025;
+    height: 40px;
+    line-height: 42px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 50%;
+    z-index: -2;
+
+  }
+  .tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+  }
+  .tombol-menu .garis {
+    height: 3px;
+    background-color: #fff;
+  }
+  section {
+    padding: 50px 0px 50px 0px;
+  }
+  section h3 {
+    font-size: 30px;
+  }
+  section h3::after {
+    content: "";
+    border-bottom: 5px solid #c86b85;
+    width: 52px;
+    display: block;
+    margin: 20px auto;
+  }
+  #aboutme,
+  #team,
+  #blog {
+    text-align: center;
+  }
+  section p.ringkasan {
+    font-style: italic;
+    font-size: 18px;
+    color: #0c0505;
+    text-align: center
+  }
+  section .konten-isi p {
+    font-style: normal;
+  }
+  nav.putih {
+    background-color: #fff;
+  }
+  nav.putih .tombol-menu .garis {
+    background-color: #333;
+  }
+  nav.putih ul li a {
+    color: #333;
+}
+section.abuabu {
+  background-color: rgb(243, 235, 235);
+}
+  
+  .playlist,
+  .tim,
+  .blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .playlist h6,
+  .tim h6 {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .playlist img {
+    width: 50px;
+  }
+  .playlist div,
+  .tim div {
+    text-align: center;
+    width: 26%;
+  }
+  section#gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+  }
+  section#gallery div {
+    padding: 10px;
+  }
+  section#gallery div img {
+    height: 100px;
+    border-radius: 5px;
+  }
+  section#gallery div img:hover {
+    transition: all 0.2s eaje-in-out;
+    transform: scale(1.1);
+  }
+  section.quote {
+    background: url("asset/background-bromo.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    padding: 100px;
+  }
+  section.quote .layar-dalam p {
+    background: url("asset/quote-icon.png") no-repeat;
+    padding: 40px;
+  }
+  .tim img {
+    width: 100%;
+    box-shadow: 0px -10px 30px #ccc;
+    border-radius: 5px;
+  }
+
+  .blog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .blog .area {
+    width: 47%;
+    box-shadow: 0px -10px 30px rgb(90, 89, 89);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    flex-wrap: wrap;
+    margin:10px;
+  }
+  .blog div.area div {
+    width: 50%;
+  }
+  .blog .area .gambar {
+    border-radius: 5px 0px 0px 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    animation-delay: 1 ms;
+  }
+
+  .blog .area .gambar :hover {
+    animation-delay: 1 ms;
+    height: 800px;
+  }
+
+  .blog .area .text article {
+    padding: 40px;
+  }
+  .blog .area .text article h4 {
+    margin: 0px;
+  }
+  .blog .area .text article a {
+    color: #333;
+    text-decoration: none;
+    transition: color 1s ease;
+    font-size:25px;
+  }
+  
+  .blog .area .text article a:hover {
+    color: red;
+    font-size: 40px;
+  }
+
+
+  @media screen and (max-width: 991.98px) {
+    .layar-dalam {
+      width: 90%;
+    }
+    nav .menu ul {
+      display: none;
+      margin-top: 60px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    nav .menu ul li {
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      background-color: #fff;
+      line-height: 40px;
+    }
+    nav .menu ul li a {
+      color: #333;
+    }
+    .tombol-menu {
+      display: flex;
+    }
+    .blog .area {
+      display: block;
+    }
+    .blog div.area div {
+      width: 100%;
+    }
+    .gambar {
+      border-radius: 5px 5px 0px 0px;
+      height: 200px;
+    }
+    
+    .gambar:hover {
+      width: auto;
+      height: 100%;
+      cursor: pointer;
+    }
+    .playlist {
+      display: block;
+    }
+    .playlist div {
+      width: 100%;
+      padding-bottom: 30px;
+    }
+  }
+
+  h3 {
+    text-align :center
+  }
+
+.text-bawah {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-bawah :hover{
+  color: grey;
+}
+
+h5 {
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (min-width: 576px){
+  .modal__content{
+    margin: auto;
+    width: 1000px;
+    border-radius: 1.25rem;
+  }
+
+  .modal__content.modal__img{
+    width: 400px;
+  }
+}
+
+h1 {
+  font-size: 27px;
+}
+
+.text-bawah .gambaraboutme {
+  height:400px;
+}
+
+.gambar:hover{
+  transform: scale(1.5);
+}

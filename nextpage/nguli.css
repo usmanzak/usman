@@ -1,0 +1,95 @@
+text {
+    font-size:0px;
+    font-family:0px;
+    font-style: inherit;
+}
+
+body {
+    background-color:thistle;
+    /* background-color: antiquewhite; */
+}
+
+.abc {
+    /* background-color: #fff; */
+    background-attachment: fixed;
+}
+.gambar {
+    height: 800px;
+    position: relative;
+    align-items: center;
+    padding: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px -10px 50px rgb(19, 3, 3);
+    
+    
+}
+
+h4 {
+    font-size:40px;
+    text-align: center;
+    unicode-range: none;
+    font-weight: bold;
+    font-style: italic;
+    text-transform:uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 a{
+    text-decoration: none;
+}
+
+h4 :hover{
+    color: red;
+    font-size: 50px;
+    unicode-range: none;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+}
+
+
+
+.paragraf {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    font-style: oblique;
+    font-family:monospace
+}
+
+.par {
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    font-style:initial;
+    font-family:monospace;
+    font-weight: bold;
+    
+}
+.pp {
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    font-style: oblique;
+    font-family:monospace;
+    font-weight: bold;
+
+}
+
+.linkhome {
+    text-align: center;
+    font-style: normal;
+}
+
+.linkhome a {
+    color: brown ;
+    text-decoration: none;
+}
+.linkhome :hover {
+    color: red;
+    font-size: 20px;
+    unicode-range: none;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+}
