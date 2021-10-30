@@ -1,7 +1,8 @@
 Website ini dibuat oleh Usman Zakaria. Website ini berisi 10 film random yang penulis pilih. Data di dalam website ini berupa data hardcode yang diperoleh dari https://www.imdb.com/ dan berbagai sumber di internet. Fitur di dalam website ini antara lain 
-1. menampilkan trailer salah satu dari film yang relevan dengan film terupdate pada saat ini.
-2. Menampilkan halaman playlist untuk memilih film yang ingin ditonton. Terdapat poster film, judul film dan deskripsi singkat mengenai film yang ditampilkan.
-3. Pada judul, terdapat link yang akan mengarahkan kepada halaman detail mengenai film yang ingin ditonton. Berisi mengenai judul (terdapat link ke halaman trailer), tahun terbit film, Diskripsi FIlm, Director, Artis yang berperan, dan Ranting dari film. dan juga disajikan link untuk kembali ke halaman utama
+1. Menampilkan trailer salah satu dari film yang relevan dengan film terupdate pada saat ini.
+2. Terdapat tombol navigate pada bagian atas untuk dapat berpindah kebagian dari website yang diinginkan dengan cepat. Tombol tersebut adalah Home, Playlist, dan About me.
+3. Menampilkan halaman playlist untuk memilih film yang ingin ditonton. Terdapat poster film, judul film dan deskripsi singkat mengenai film yang ditampilkan.
+4. Pada judul, terdapat link yang akan mengarahkan kepada halaman detail mengenai film yang ingin ditonton. Berisi mengenai judul (terdapat link ke halaman trailer), tahun terbit film, Diskripsi FIlm, Director, Artis yang berperan, dan Ranting dari film. dan juga disajikan link untuk kembali ke halaman utama
 
 Untuk menjalankan website ini, dapat dilakukan dengan :
 1. membukanya pada link github.io ini = https://usmanzak.github.io/usman/
