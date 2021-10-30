@@ -1,4 +1,4 @@
-Website ini dibuat oleh Usman Zakaria. Website ini berisi 10 film random yang penulis pilih. Data di dalam website ini berupa data hardcode yang diperoleh dari https://www.imdb.com/ dan berbagai sumber di internet. Fitur di dalam website ini antara lain 
+Website ini dibuat oleh Usman Zakaria. Website ini berisi 10 film random yang penulis pilih. Data di dalam website ini berupa data hardcode yang diperoleh dari https://www.imdb.com/ dan berbagai sumber di internet. Fitur di dalam website ini antara lain :
 1. Menampilkan trailer salah satu dari film yang relevan dengan film terupdate pada saat ini.
 2. Terdapat tombol navigate pada bagian atas untuk dapat berpindah kebagian dari website yang diinginkan dengan cepat. Tombol tersebut adalah Home, Playlist, dan About me.
 3. Menampilkan halaman playlist untuk memilih film yang ingin ditonton. Terdapat poster film, judul film dan deskripsi singkat mengenai film yang ditampilkan.
