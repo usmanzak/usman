@@ -10,7 +10,8 @@ Untuk menjalankan website ini, dapat dilakukan dengan :
 
 Berikut adalah foto tampilan website:
 1. Halaman depan beserta fitur home:
-![image](https://user-images.githubusercontent.com/92038676/139519392-e8315683-7451-477f-a357-d36be2035d90.png)
+![image](https://user-images.githubusercontent.com/92038676/139519813-076a7677-9705-4a59-ba71-6ea9c3b9a046.png)
+
 2. Halaman depan beserta fitur playlist:
  ![image](https://user-images.githubusercontent.com/92038676/139519428-47434095-728a-45dd-ba63-e93b35b86baa.png)
  
